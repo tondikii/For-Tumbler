@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400;1,500&display=swap");
+
+$primary-color: #3dfdc7;
+$secondary-color: #3d64fd;
+$text-color: #426696;
+
+@mixin radius-sm {
+  border-radius: 2rem;
+}
+@mixin radius-lg {
+  border-radius: 3rem;
+}
+@mixin radius-circle {
+  border-radius: 50%;
+}
+@mixin primary-bg {
+  background-image: linear-gradient(
+    to top right,
+    $secondary-color,
+    $primary-color
+  );
+}
+@mixin flex-box($justify: center, $align: center, $direction: column) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+@mixin glass {
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+@mixin placeholder {
+  input[placeholder] {
+    text-align: center;
+  }
+}
+
+@mixin input-border {
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
