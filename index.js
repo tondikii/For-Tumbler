@@ -39,3 +39,8 @@ const listLagu = {
             link: 'https://open.spotify.com/track/5DCLkzuWICNar6qn3B393f?si=7NZcubtFR9Shy2SlAAcx7g&utm_source=copy-link'
         },
     ]}
+=======
+const test = document.getElementById("test");
+test.addEventListener("mousemove", () => {
+  console.log(test.value);
+});
