@@ -328,12 +328,7 @@ moodRange.addEventListener('change', () => {
 const logOut = document.getElementById('logout');
 logOut.addEventListener('click', () => {
   let validasi = confirm('Are you sure to Logout?');
-  if (validasi) window.location='login.html';
-})
-const logOut2 = document.getElementById('logout2');
-logOut2.addEventListener('click', () => {
-  let validasi = confirm('Are you sure to Logout?');
-  if (validasi) window.location='login.html';
+  if (validasi) window.location='index.html';
 })
 function playList() {
   alert('Added to Playlist');
