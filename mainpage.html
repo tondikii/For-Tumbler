@@ -30,7 +30,14 @@
             <img src="img/attitude.png" alt="" />
             <label for="mood">Change Mood</label>
           </li>
-          <input type="range" min="0" max="4" />
+          <input id="moodrange" type="range" min="0" max="4" />
+          <li>
+            <input type="range" min="0" max="4" />
+          </li>
+          <li>
+            <img src="img/logout.png" alt=""/>
+            <p>LogOut</p>
+          </li>
         </ul>
         <ul id="moodsImage">
           <li><img src="img/veryhappy.png" alt="" /></li>
@@ -47,7 +54,7 @@
         </header>
 
         <div id="musicList">
-          <ul>
+          <ul id="content">
             <li>
               <div class="music">
                 <div class="images">
@@ -81,5 +88,6 @@
         id="musicBar"
       ></iframe>
     </section>
+    <script src="mainpage.js"></script>
   </body>
 </html>
