@@ -62,7 +62,19 @@ section {
       }
     }
 
-    ul {
+    ul#moodsImage {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      li {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+
+    ul#head {
       display: flex;
       flex-direction: column;
       gap: 10px;
