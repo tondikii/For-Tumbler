@@ -295,3 +295,10 @@ moodRange.addEventListener('change', () => {
         else if (moodRange.value == 3) listLagu.innerHTML = listHappy(lagu);
         else listLagu.innerHTML = listLoveSong(lagu);
 })
+const logOut = document.getElementById('logout');
+// // console.log(logOut)
+logOut.addEventListener('click', () => {
+  // alert(logOut.innerHTML);
+  let validasi = confirm('Are you sure to Logout?');
+  if (validasi) window.location='login.html';
+})
