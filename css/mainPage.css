@@ -51,6 +51,15 @@ section nav header {
   color: #426696;
 }
 
+section nav header h1 {
+  font-size: larger;
+}
+
+section nav header h5 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
 section nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,14 +179,22 @@ section main #musicList ul li .music .images img.album:hover {
 
 section main #musicList ul li .music .images img.play-button {
   position: absolute;
+  padding: 1.7rem;
   top: 0;
+  right: 0;
   left: 0;
   bottom: 0;
-  right: 0;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
 }
 
 section main #musicList ul li .music .images img.play-button:hover {
